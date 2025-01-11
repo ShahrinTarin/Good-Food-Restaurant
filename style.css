@@ -68,26 +68,27 @@ opacity: 0.7;
 margin-bottom: 32px;
 }
 
-#hero .hero-content .button{
+#hero .hero-content .butn{
     padding: 21px 32px 21px 32px;
     border-radius: 8px;
 
-background: rgb(82, 195, 3);
+background-color: rgb(82, 195, 3);
 border: none;
 color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 20px;
 font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
 text-align: center;
 }
-
 #hero .hero-content .btncontent{
     text-align: center;
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #0e0e0e42;
+    color: #0E0E0E;
+}
 
 /* second section */
 
@@ -290,5 +291,9 @@ width: 830px;
 
 .foot .about{
     z-index: 0.5;
+}
+.hover:hover{
+    background-color: #0e0e0e42;
+    color: #0E0E0E;
 }
 
